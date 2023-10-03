@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/miru-project/repo/main/index.json')
+fetch('https://cdn.jsdelivr.net/gh/miru-project/repo@main/index.json')
     .then(response => response.json())
     .then(data => {
         const dataContainer = document.getElementById('data-container');
